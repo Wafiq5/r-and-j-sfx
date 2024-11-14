@@ -1,1 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: "Ivory Headline W00 Regular";
+    text-align: center;
+}
 
+.title{
+    font-size: 1.75rem;
+    background-color: #a82c29;
+    color: white;
+    padding: 20px;
+}
+
+.sfx-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.lego-yoda-death-div,
+.thick-of-it-div,
+.vine-boom-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px 0; 
+}
+
+button{
+    background-color: #a82c29;
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 4px;
+
+}
+button:hover{
+    background-color: #81211f;
+
+}
+
+.stop-all-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.stop-all-div button{
+    width: 40vw;
+}
+
+@media (max-width: 600px) {
+    .sfx-container{
+        flex-direction: column;
+    }
+    .stop-all-div{
+        margin-top: 30px;
+    }
+}
