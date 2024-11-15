@@ -16,11 +16,17 @@ function playThickOfIt(){
     ksiThickOfItSFX.play();
 }
 
+function playMinecraftXP(){
+    var minecraftXPSFX = document.getElementById("minecraftXPSFX")
+    minecraftXPSFX.currentTime = 0;
+    minecraftXPSFX.play();
+}
 function stopAll() {
     var soundEffects = [
         document.getElementById("vineBoomSFX"),
         document.getElementById("legoYodaDeathSFX"),
-        document.getElementById("ksiThickOfItSFX")
+        document.getElementById("ksiThickOfItSFX"),
+        document.getElementById("minecraftXPSFX")
     ];
     
     soundEffects.forEach(function(sfx) {
