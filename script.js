@@ -21,6 +21,15 @@ function playMinecraftXP(){
     minecraftXPSFX.currentTime = 0;
     minecraftXPSFX.play();
 }
+
+function playAmongUsSus(){
+    var amongUsSusSFX = document.getElementById("amongUsSusSFX")
+    amongUsSusSFX.currentTime = 0;
+    amongUsSusSFX.play();
+}
+
+
+
 function stopAll() {
     var soundEffects = [
         document.getElementById("vineBoomSFX"),
