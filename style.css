@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    /* outline: 1px red solid; */
 }
 h1{
     font-family: "Ivory Headline W00 Regular";
@@ -19,13 +20,15 @@ h1{
     gap: 30px;
     justify-content: center;
     margin: 20px;
+    flex-wrap: wrap;
 }
 
 .sfx-div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px 0; 
+    gap: 20px; 
+    flex-grow: 1;
 }
 
 button{
