@@ -21,10 +21,7 @@ h1{
     margin: 20px;
 }
 
-.lego-yoda-death-div,
-.thick-of-it-div,
-.vine-boom-div
-{
+.sfx-div{
     display: flex;
     flex-direction: column;
     align-items: center;
