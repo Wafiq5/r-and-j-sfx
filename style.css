@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    /* outline: 1px red solid; */
+    outline: 1px red solid;
+
 }
 h1{
     font-family: "Ivory Headline W00 Regular";
@@ -18,7 +19,7 @@ h1{
 .sfx-container{
     display: flex;
     gap: 30px;
-    justify-content: center;
+    justify-content: space-between;
     margin: 20px;
     flex-wrap: wrap;
 }
