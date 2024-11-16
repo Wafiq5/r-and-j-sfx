@@ -8,6 +8,9 @@ h1{
     font-family: "Ivory Headline W00 Regular";
     text-align: center;
 }
+h2{
+    text-align: center;
+}
 
 .title{
     font-size: 1.75rem;
@@ -62,6 +65,7 @@ button:hover{
 @media (max-width: 600px) {
     .sfx-container{
         flex-direction: column;
+        align-items: center;
     }
     .stop-all-div{
         margin-top: 30px;
