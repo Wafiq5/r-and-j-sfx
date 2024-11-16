@@ -1,43 +1,12 @@
-function playVineBoom() {
-    var vineBoomSFX = document.getElementById("vineBoomSFX");
-    vineBoomSFX.currentTime = 0;
-    vineBoomSFX.play();
+function playSFX(SFXName){
+    var SFX = document.getElementById(SFXName)
+    SFX.currentTime = 0;
+    SFX.play();
 }
-
-function playLegoYodaDeath() {
-    var legoYodaDeathSFX = document.getElementById("legoYodaDeathSFX");
-    legoYodaDeathSFX.currentTime = 0;
-    legoYodaDeathSFX.play();
-}
-
-function playThickOfIt(){
-    var ksiThickOfItSFX = document.getElementById("ksiThickOfItSFX");
-    ksiThickOfItSFX.currentTime = 0;
-    ksiThickOfItSFX.play();
-}
-
-function playMinecraftXP(){
-    var minecraftXPSFX = document.getElementById("minecraftXPSFX")
-    minecraftXPSFX.currentTime = 0;
-    minecraftXPSFX.play();
-}
-
-function playAmongUsSus(){
-    var amongUsSusSFX = document.getElementById("amongUsSusSFX")
-    amongUsSusSFX.currentTime = 0;
-    amongUsSusSFX.play();
-}
-
-
 
 function stopAll() {
-    var soundEffects = [
-        document.getElementById("vineBoomSFX"),
-        document.getElementById("legoYodaDeathSFX"),
-        document.getElementById("ksiThickOfItSFX"),
-        document.getElementById("minecraftXPSFX")
-    ];
-    
+    var soundEffects = document.querySelectorAll('.sfx');
+
     soundEffects.forEach(function(sfx) {
         sfx.pause();
         sfx.currentTime = 0;
