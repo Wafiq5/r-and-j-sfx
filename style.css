@@ -3,6 +3,7 @@
     padding: 0;
     /* outline: 1px red solid; */
     box-sizing: border-box;
+    text-wrap: nowrap;
 }
 h1{
     font-family: "Ivory Headline W00 Regular";
